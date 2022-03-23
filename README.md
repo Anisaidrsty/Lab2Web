@@ -22,6 +22,8 @@ Tampilan pada browser
 ![image](https://user-images.githubusercontent.com/101643559/159715882-7c7a7468-2799-4744-a4dd-c4cce24b7541.png)
 Tampilan pada browser 
 ![image](https://user-images.githubusercontent.com/101643559/159715994-2138e657-bad8-4574-a53f-4e64187f2265.png)
+
+
 Jawaban Pertanyan Praktikum 2
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 eksperimen dengan cara mengubah beberapa properti dan nilai KODE CSS :
