@@ -23,4 +23,34 @@ Tampilan pada browser
 Tampilan pada browser 
 ![image](https://user-images.githubusercontent.com/101643559/159715994-2138e657-bad8-4574-a53f-4e64187f2265.png)
 Jawaban Pertanyan Praktikum 2
-<p style="text-align: center; color: #ccd8e4;">
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+eksperimen dengan cara mengubah beberapa properti dan nilai KODE CSS :
+![image](https://user-images.githubusercontent.com/101643559/159720236-8f9d3395-c69b-47a0-8450-56860b6a49ea.png)
+
+![image](https://user-images.githubusercontent.com/101643559/159720164-1a36ae82-fa3a-4bf6-8e07-9bd04e8271ee.png)
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+Perbedaannya adalah jika hanya menggunakan h1 maka semua yang ada dalam dokumen akan berubah, namun jika menggunakan #intro h1 yang berubah hanya yang memiliki tag intro tersebut.
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+jika ketiga CSS merubah elemen yang sama maka deklarasi tersebut akan mengikuti aturan prioritas dimana prioritas CSS nya seperti berikut :
+- inline CSS
+- ID selector CSS
+- internal CSS
+- external CSS
+contoh: ini adalah tampilan coding pada html testing dimana terdapat 2 kalimat yang memiliki elemen yang sama yaitu h1:
+- terdapat 2 CSS yang merubah warna tect h1
+- ![image](https://user-images.githubusercontent.com/101643559/159723777-16f03c93-1284-46e0-9a16-e0d04ad3248c.png)
+- Exsternal CSS berupa 
+- ![image](https://user-images.githubusercontent.com/101643559/159724812-7bceec44-ec4f-40d0-889d-1f4887cb14e8.png)
+tampilan pada browser 
+![image](https://user-images.githubusercontent.com/101643559/159724813-efba9bf5-e87b-47c1-acf8-aca241cca117.png)
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( p id="paragraf-1" class="text-paragraf" )
+intinya semakin spesifik css  maka akan semakin tinggi prioritas css tersebut.
+contoh :
+![image](https://user-images.githubusercontent.com/101643559/159727828-53dc347b-12d2-44e8-8c8b-bec9361972ac.png)
+
+Disitu bisa dilihat terdapat 2 css yang merujuk ke elemen yang sama tapi 1 merujuk dengan id yang birisi font 100px dan warna aqua sedangkan yang satu lagi merujuk dengan class yang berisi font 10px dan warna beige:
+![image](https://user-images.githubusercontent.com/101643559/159727923-5fcee6ab-46bf-4dc2-bc65-3c08af625317.png)
+tampilan pada browser 
+![image](https://user-images.githubusercontent.com/101643559/159728291-4b5c8820-eeaf-4386-958c-2933e3569eca.png)
+Text 3 Anisa Indriani tersebut mengikuti css selector id daripada selector class dikarenakan id lebih spesifik daripada class.
+
